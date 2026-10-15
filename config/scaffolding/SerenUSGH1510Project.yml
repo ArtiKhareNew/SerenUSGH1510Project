@@ -22,6 +22,11 @@ packages:
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+- name: UpperFSPackage_EntGithub
+  gitServerName: bearerTokenArti_githubEnt
+  gitUrl: https://github.ibm.com/Arti-Khare
+  gitUsername: Arti-Khare
+  gitBranch: main
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbc.SAP TxStore Pool.spyparms: SpyAttributes=(log=(file)logs/spy/SAP_TxStore_Pool.log;logTName=yes;timestamp=yes)
